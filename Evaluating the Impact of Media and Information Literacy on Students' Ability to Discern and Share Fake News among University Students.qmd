@@ -1,0 +1,273 @@
+---
+title: "Evaluating the Impact of Media and Information Literacy on University Students' Ability to Discern and Share Fake News in the Philippines"
+format: html
+editor: visual
+csl: springer-lecture-notes-in-computer-science.csl
+bibliography: https://api.citedrive.com/bib/cfb0e65d-c210-4a73-a57e-5a8730d9fdfc/references.bib?x=eyJpZCI6ICJjZmIwZTY1ZC1jMjEwLTRhNzMtYTU3ZS01YTg3MzBkOWZkZmMiLCAidXNlciI6ICI2NzA1IiwgInNpZ25hdHVyZSI6ICJmNjFiYzA1MjFiZTJiYWVhZDNiZTljN2JhYzAxNTBkZGViNmFiZDQ2NDg4ZDZmMTg0YjBiOTU3NWJhNmFlOTNjIn0=
+citations-hover: true
+link-citations: true
+link-bibliography: true
+toc: true
+number-sections: true
+crossref:
+  fig-title: Figure
+  tbl-title: Table
+  title-delim: "."
+---
+
+# Introduction
+
+## Social Media Use and Prevalence of Fake News
+
+The prevalence of social media in the Philippines has significantly increased in recent years, reshaping communication and information dissemination. As of 2023, approximately 76% of the Filipino population actively engages with social media platforms, facilitating personal interactions and the spread of information, including news. This heightened usage raises concerns about the dissemination of fake news, which has become increasingly significant in the socio-political context of the country. The digital landscape in the Philippines is particularly vulnerable to misinformation due to a combination of extensive social media adoption, varying digital literacy levels, and political polarization among users [@maningo2022covid; @hyun2024politicization] .
+
+Recent studies indicate that despite a high awareness of fake news among users—especially among younger demographics—apathy and misinformation continue to thrive. A study conducted in Cebu City highlighted that while millennials are aware of the prevalence of fake news surrounding events like the COVID-19 pandemic, many exhibit a concerning level of disengagement. A significant percentage of respondents reported feeling overwhelmed by the volume of information [@maningo2022covid] . This phenomenon, known as information overload, can lead to superficial engagement with content, where users may browse through emotionally charged posts without critically evaluating the validity of the information or the motives of the sources [@xiao2021who] .
+
+Further discourse suggests that individuals with strong political ideologies are more likely to perceive fake news as a problem for others, a phenomenon known as the third-person effect. This perception often correlates with greater support for government regulation of fake news, even as they may not recognize similar biases in their own information consumption [@hyun2024politicization] . The interplay between political affiliation and the spread of misinformation emphasizes the necessity of improving media literacy programs that help individuals critically analyze information, particularly leading up to significant events like elections—an area where surveys have indicated a growing concern about disinformation tactics and their impact on electoral integrity [@schipper2025disinformation].
+
+To combat the challenges posed by misinformation in the Philippines, various stakeholders are advocating for enhanced digital and media literacy initiatives. Research advocates that increasing the public's ability to recognize misleading information is integral to safeguarding societal discourse [@xiao2021who; @svintsytskyi2023countering] . The implementation of Digital Literacy Movements aims to equip individuals, particularly the youth, with skills necessary to navigate the evolving digital landscape and foster critical thinking regarding the content they engage with on social media [@izana2020implementation; , @maningo2024digitalization] . Educational frameworks that integrate new media literacy concepts are deemed pivotal in adapting to the rapid evolution of media forms and their associated challenges [@maningo2024digitalization; @baterna2020digital] .
+
+As the Philippines grapples with these challenges, the collective effort to improve media literacy will be crucial in mitigating the effects of fake news and fostering a more informed citizenry capable of engaging with digital media responsibly [@maningo2022covid; @hyun2024politicization; @schipper2025disinformation] .
+
+## Misinformation in Political Decision-making
+
+As individuals turn to online platforms for news, they encounter a deluge of information that may include inaccuracies and distortions, leading to substantial implications for democratic processes and civic engagement. Misinformation can exacerbate political cynicism, as demonstrated by findings from the 2020 U.S. Presidential election. Research indicates that increased exposure to misinformation through social media is positively correlated with higher levels of political cynicism among users [@lee2024cynical]. This relationship highlights how misinformation does not merely mislead individuals but also fosters disillusionment with political institutions and processes.
+
+Furthermore, misinformation's impact extends beyond individual attitudes to influence broader political behaviors and civic engagement. For instance, misinformation about health issues, particularly during crises such as the COVID-19 pandemic, can sway public opinion on policy decisions, affecting electoral participation. In areas where political and health-related misinformation proliferates, there are significant concerns regarding how misinformation distorts citizens' expectations of political leaders and undermines public trust [@angelis2022editorial] . This undermines their commitment to civic responsibilities, including informed voting and participation in democratic processes.
+
+The consequences of misinformation are further amplified by the dynamics of social media, where false narratives can spread rapidly, creating echo chambers that reinforce existing beliefs [@pan2021examination] . The concept of collective influence suggests that individuals are not merely passive recipients of misinformation; they engage in selective sharing based on their partisan biases, which compounds the problem [@shin2017partisan]. Misinformation can distort public discussions around crucial policies, steering voters away from rational decision-making and towards ideologically motivated reasoning [@shehata2025exploration] .
+
+Moreover, individuals often exhibit a reluctance to change beliefs even when confronted with corrections to misinformation, a phenomenon known as the continued influence effect [@ecker2022psychological]. This can have dangerous implications for political decision-making, as voters may remain anchored to false beliefs that misinform their choices. Particularly in polarized environments, the challenge becomes not only discerning accurate information but also overcoming cognitive biases that reinforce the acceptance of misinformation [@dewan2024mind] .
+
+Overall, the integration of misinformation into political discourse poses significant risks to democratic stability and civic integrity. The rejection of factual information in favor of misleading narratives threatens not only individual decision-making but can ultimately undermine the foundation of democratic governance itself [@jain2023dark]. Combating this requires a multifaceted approach, including enhancing media literacy among citizens to cultivate critical thinking and discernment in the face of online misinformation [@harich2024applying].
+
+## Addressing Misinformation Through Educational Initiatives (MIL)
+
+Addressing misinformation through educational initiatives, particularly media and information literacy (MIL), is increasingly recognized as critical in today's digital landscape. Misinformation can undermine public health efforts, skew political beliefs, and erode social trust. Educational initiatives aimed at improving literacy in media consumption can empower individuals to navigate the complex information ecosystem and critically evaluate the content they encounter.
+
+One significant finding is that integrating interdisciplinary approaches in education can enhance the effectiveness of misinformation correction. For instance, a study highlighted the importance of community-engaged science communication training, which encourages students to adopt inclusive and participatory methods for addressing science misinformation. Students learned to value building trust alongside correcting misinformation, suggesting that educational programs that merge scientific skills with communication strategies can improve outcomes in combating misinformation. This not only equips students with the necessary tools to discern credible information but also fosters a more informed public capable of participating in discourse regarding scientific and socio-political issues [@cagle2025stop].
+
+Moreover, the relationship between education and misinformation acceptance underscores the critical role of MIL in enhancing individuals' ability to evaluate the veracity of information. Research indicates a widening gap in misinformation acceptance based on educational background, which could exacerbate health and social issues [@hwang2023education]. This suggests that educational systems need to prioritize MIL to help students become more discerning consumers of information. By doing so, they can withstand the surges of misinformation that frequently accompany crises such as health emergencies or political events.
+
+Health misinformation, particularly during the COVID-19 pandemic, has demonstrated the detrimental effects on public health outcomes. Acknowledging the role of health literacy as a form of educational initiative is vital in this context. Programs aimed at improving health literacy can significantly reduce the susceptibility to health misinformation by enabling individuals to better understand and seek reliable sources of health information [@wang2023effects]. Additionally, educating healthcare professionals about recognizing and addressing misinformation can bolster their effectiveness in patient communication [@sharman2023recognising; @sheng2023role] . Not only must they convey correct information, but they should also engage with empathy to address existing misconceptions while promoting evidence-based practices.
+
+An equally important aspect of combating misinformation through educational initiatives is the use of technology and media platforms in an increasingly digital age. A literature review noted that social media serves both as a pervasive source of misinformation and a potential tool for education [@huang2021review] . By incorporating digital literacy programs that teach individuals how to critically assess the content encountered on social media, educational initiatives can address the infodemic effectively. Such programs intend to develop skills in identifying misleading information, analyzing sources, and recognizing biases [@grover2024online].
+
+Finally, the continued exploration of innovative educational approaches is essential, especially in the face of an evolving misinformation landscape. Collaborative efforts, like the Implementing Mitigating Misinformation Toolkit or interprofessional education curricula that address misinformation, represent promising strategies to unify knowledge across disciplines and engage learners [@hayman2024mitigating; @vraga2020creating]. These initiatives aim not just to impart knowledge but also to foster collaborative skills among future leaders tasked with combating misinformation in their respective fields.
+
+# Research Question
+
+This study investigates the influence of media and information literacy (MIL) skills acquired through education on students' ability to assess the veracity of news headlines and their intentions to share potentially false information. Specifically, the study addresses the research question:
+
+> RQ: How do information literacy skills from MIL education influence students’ evaluation of headline veracity and their intentions to share fake news?
+
+This question seeks to understand if structured MIL education, particularly courses like LIS 50 and LIS 10 at the University of the Philippines, significantly enhance students' capacities to discern factual news from misinformation, and whether such educational interventions affect their subsequent sharing behavior. Addressing this research question provides insights into the effectiveness of MIL educational practices and their potential role in mitigating the spread of misinformation on social media platforms.
+
+# Methods
+
+## Participants
+
+Participants were recruited via Formbricks on the UP SLIS Facebook page and website **(N=66)**. Eligibility criteria included: (a) *LIS students who completed LIS 50*; (b) *non‑LIS students enrolled in the General Education course LIS 10*; and (c) *non‑LIS students who had not taken LIS 10 or LIS 50 (control group)*. Demographic data (age, gender, academic program) were collected to describe the sample and check for potential confounds.
+
+## Materials
+
+**Headlines:** 28 Facebook‐style headlines (14 real, 14 fake) posted between February and June 2025. Real headlines were drawn from the Facebook pages of leading Philippine news outlets ([*GMA Network*](https://www.facebook.com/GMANetwork)*, [Manila Bulletin](https://www.facebook.com/ManilaBulletin), [Super Radyo DZBB](https://www.facebook.com/dzbb594/), [Philippine Daily Inquirer](https://www.facebook.com/philippinedailyinquirer), [TV5](https://www.facebook.com/TV5manila), [ABS‑CBN](https://www.facebook.com/ABSCBNnetwork), and [The Philippine Star](https://www.facebook.com/PhilippineSTAR)*). Fake headlines were obtained from [*Tsek.Ph*](https://www.tsek.ph/), an IFCN‑accredited fact‑checking platform focusing on election misinformation.
+
+## Survey Items
+
+For each headline, two binary items: (a) Accuracy Judgment (“To the best of your knowledge, is this claim in the above headline accurate?”; Yes/No), and (b) Sharing Intention (“Would you consider sharing this story online through Facebook?”; Yes/No).
+
+## Procedure
+
+Participants first completed demographic and social‑media usage questions. Headlines were then presented one at a time in randomized order. After each headline, participants indicated an accuracy judgment and a sharing intention. Finally, open‑ended questions captured rationales for their judgments and sharing decisions.
+
+## Data Analysis
+
+**R Packages:** Analyses were conducted in R (v4.x)[@R] using readxl[@readxl] and dplyr[@dplyr] .
+
+**MIL Exposure Coding:** Participants were classified as “MIL” if they had taken LIS 10 or LIS 50, and “No MIL” otherwise.
+
+**Flag Computation:** For each of the 28 accuracy items, responses were compared against the answer key to generate binary flags `(corr1…corr28)`. For each of the 28 sharing items, responses were coded into `share1…share28 (Yes = 1; No = 0)`.
+
+**Score Calculation:** A row‐wise sum of corr\* flags yielded an `accuracy_score (0–28)`. A row‐wise sum of `share* flags` yielded a `sharing_score (0–28)`.
+
+**Statistical Tests:** `One-way ANOVAs` assessed differences in `accuracy_score` and `sharing_score` by MIL exposure. Statistical significance was evaluated at $α$ = .05.
+
+**Qualitative Analysis:** Open‐ended responses were thematically coded to identify the criteria used for accuracy judgments (e.g., source credibility, language cues, verification strategies) and motivations for sharing or withholding content.
+
+**Transparency and Reproducibility:** All materials used in this paper's preprint (datasets, code, instruments) are publicly available at: https://github.com/panda-lab-slis/informationliteracy
+
+# Results
+
+```{r}
+#| label: r-code
+#| message: false
+#| warning: false
+#| include: false
+
+# Load required packages
+library(readxl)
+library(dplyr)
+
+# 1. Read the dataset
+df <- read_excel("News headline opinion survey-cleaned.xlsx")
+
+# 2. Recode MIL exposure (binary: "MIL" vs. "No MIL")
+df <- df %>%
+  mutate(
+    MIL_exposure = if_else(
+      `2. Have you taken any of the following LIS course?` %in% c("LIS 10", "LIS 50"),
+      "MIL", "No MIL"
+    )
+  )
+
+# 3. Define columns by position to avoid regex
+# Assuming accuracy judgments in columns 10,12,...,66 and sharing intents in 11,13,...,67
+acc_idx   <- seq(10, 65, by = 2)
+share_idx <- seq(11, 66, by = 2)
+
+# 4. Define answer key for accuracy (length 28)
+answer_key <- c(
+  "Yes","No","Yes","No","No","Yes","No","No","No","Yes",
+  "Yes","Yes","No","Yes","Yes","No","Yes","Yes","Yes","No",
+  "Yes","No","Yes","No","No","No","No","Yes"
+)
+
+# 5. Compute correctness and sharing flags
+for (i in seq_along(acc_idx)) {
+  df[[paste0("corr", i)]] <- if_else(
+    df[[acc_idx[i]]] == answer_key[i],
+    1L, 0L
+  )
+}
+for (i in seq_along(share_idx)) {
+  df[[paste0("share", i)]] <- if_else(
+    df[[share_idx[i]]] == "Yes", 1L, 0L
+  )
+}
+
+# 6. Compute total scores and perform ANOVAs
+df <- df %>%
+  rowwise() %>%
+  mutate(
+    accuracy_score = sum(c_across(starts_with("corr")), na.rm = TRUE),
+    sharing_score  = sum(c_across(starts_with("share")), na.rm = TRUE)
+  ) %>%
+  ungroup()
+
+# 7. Summary statistics by MIL exposure
+summary_stats <- df %>%
+  group_by(MIL_exposure) %>%
+  summarise(
+    mean_accuracy = mean(accuracy_score, na.rm = TRUE),
+    sd_accuracy   = sd(accuracy_score,   na.rm = TRUE),
+    mean_sharing  = mean(sharing_score,  na.rm = TRUE),
+    sd_sharing    = sd(sharing_score,    na.rm = TRUE)
+  )
+print(summary_stats)
+
+# 8. One-way ANOVAs for difference tests
+print(summary(aov(accuracy_score ~ MIL_exposure, data = df)))
+print(summary(aov(sharing_score  ~ MIL_exposure, data = df)))
+```
+
+The analysis investigated whether participation in MIL courses (LIS 10 or LIS 50) influenced students’ abilities to correctly identify fake news and their willingness to share content online. Results are organized into quantitative comparisons and qualitative insights.
+
+## Quantitative Findings
+
+@tbl-summary displays descriptive statistics for accuracy and sharing scores by MIL exposure. Both groups performed nearly identically in identifying true versus false headlines (MIL: M = 9.91, SD = 1.63; No MIL: M = 9.90, SD = 1.92). Sharing intentions were also similar (MIL: M = 2.59 shares, SD = 2.33; No MIL: M = 2.43 shares, SD = 2.70).
+
+```{r summary, echo=FALSE}
+#| label: tbl-summary
+#| tbl-cap: Descriptive statistics by MIL exposure
+knitr::kable(
+  summary_stats,
+  col.names = c("MIL Exposure", "Mean Accuracy", "SD Accuracy", "Mean Sharing", "SD Sharing"),
+  digits = 2
+)
+```
+
+One-way ANOVAs tested whether MIL exposure explained variance in scores. @tbl-anova-accuracy shows the test for accuracy: the sum of squares attributable to MIL was virtually zero (SS = 0.001), producing F(1, 60) = 0.0006, p = 0.989, indicating no significant group difference.
+
+```{r anova-accuracy, echo=FALSE}
+#| label: tbl-anova-accuracy
+#| tbl-cap: ANOVA for Accuracy Score by MIL exposure
+knitr::kable(
+  broom::tidy(aov(accuracy_score ~ MIL_exposure, data = df)),
+  digits = 3
+)
+```
+
+Similarly, @tbl-anova-sharing presents the ANOVA for sharing intentions, with F(1, 60) = 0.063, p = 0.803, confirming no significant effect of MIL exposure.
+
+```{r anova-sharing, echo=FALSE}
+#| label: tbl-anova-sharing
+#| tbl-cap: ANOVA for Sharing Score by MIL exposure
+knitr::kable(
+  broom::tidy(aov(sharing_score ~ MIL_exposure, data = df)),
+  digits = 3
+)
+```
+
+Contrary to studies by Guess et al.[@guess2020digital] or Jones‑Jang et al.[@jones_jang2021does] demonstrating that targeted MIL interventions can boost fake-news detection, our findings show no measurable advantage for students who completed LIS 10 or LIS 50. This aligns with research suggesting that singular educational exposures may produce short-lived or subtle gains according to Pennycook & Rand [@pennycook2021psychology] and that sharing behavior is influenced by emotional or social motivations beyond mere detection skills. Possible explanations include:
+
+-   Ceiling effects: High baseline performance left little room for improvement.
+
+-   Course content scope: MIL curricula may emphasize source evaluation but not practical sharing judgments.
+
+-   Measurement sensitivity: Binary forced-choice tasks may not capture nuanced critical thinking.
+
+## Qualitative Themes
+
+Analysis of open-ended responses revealed that students use a combination of cognitive and affective processes when evaluating and deciding to share headlines:
+
+1.  **Source Credibility**\
+    Trust in recognized news outlets and fact-checkers guided judgments. This supports inoculation theory’s emphasis on equipping learners with heuristics to preempt misinformation [@mcguire1964some; @huang2024media].
+
+2.  **Linguistic Cues**\
+    Participants flagged sensational phrasing, exaggerated claims, or grammatical errors as red flags. This mirrors techniques employed in technique-based inoculation, where understanding persuasive tactics fosters resilience [@roozenbeek2022technique] .
+
+3.  **Verification Practices**\
+    Many described cross-checking headlines through online searches or dedicated fact-checking sites before sharing. This active strategy reflects deeper analytic engagement and parallels findings that deliberative thinking reduces fake-news belief [@bago2020fake].
+
+**Sharing Motivations**
+
+-   **Ethical Responsibility**: A strong desire to avoid spreading falsehoods discouraged sharing despite recognition of accuracy.
+
+-   **Audience Relevance**: Content perceived as irrelevant to one’s network was seldom shared, indicating social utility considerations.
+
+-   **Emotional Engagement**: Outrage, amusement, or emotional resonance sometimes overrode accuracy concerns, consistent with research on affect-driven sharing [@roozenbeek2022technique].
+
+These qualitative insights underscore that improving fake-news discernment alone may not suffice to change sharing behavior. Educational interventions should integrate reflective components on social and emotional drivers of sharing, aligning critical evaluation with responsible digital citizenship.
+
+# Conclusion
+
+The findings indicate that completing MIL coursework (LIS 10 or LIS 50) does not produce statistically significant improvements in students’ abilities to discern fake headlines or alter their intentions to share such content on social media. Accuracy scores and sharing scores were virtually identical between those with and without MIL exposure, suggesting that a single course may be insufficient to shift underlying cognitive and behavioral patterns.
+
+## Recommendations
+
+1. Integrated Learning Modules: Embed MIL principles within broader curricula rather than standalone courses. Reinforce critical evaluation skills across multiple classes and contexts to deepen retention.
+
+1. Reflective Sharing Exercises: Develop activities where students track and reflect on their real-world sharing behaviors over time, linking accuracy judgments with social and emotional factors that drive sharing.
+
+1. Scenario-Based Simulations: Use immersive scenarios—such as role-playing or interactive fake-news outbreaks—to practice detection under realistic time pressure and peer influence, mirroring real social media dynamics.
+
+1. Collaborative Fact-Checking Labs: Create group-based fact-checking projects where students collaborate to verify emerging claims, fostering both analytical skills and social accountability.
+
+1. Longitudinal Assessment: Implement follow-up evaluations months after instruction to detect longer-term impacts and refine interventions accordingly.
+
+## Limitations
+
+1. Sample Size and Scope: The modest sample (N = 66) limits statistical power and generalizability. Participants were drawn from a single institution, potentially reflecting shared baseline competencies.
+
+1. Measurement Constraints: Binary forced-choice items may not capture nuanced evaluative processes. More graded or open-ended accuracy assessments could reveal subtler improvements.
+
+1. Short-Term Evaluation: Data were collected immediately after course completion. The study does not assess retention or transfer of MIL skills over time.
+
+1. Self-Reported Intentions: Sharing intentions may not correspond to actual behavior. Tracking real sharing activity on social platforms would enhance ecological validity.
+
+1. Content Homogeneity: Headlines were limited to election-related items from a narrow timeframe. Including diverse topics and formats (e.g., images, videos) could test MIL applicability across contexts.
+
+1. Addressing these limitations will strengthen future research and support the design of robust MIL interventions that yield measurable improvements in both critical evaluation and sharing behavior.
+
+# Reference

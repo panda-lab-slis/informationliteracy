@@ -1,0 +1,933 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.6.42">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Evaluating the Impact of Media and Information Literacy on University Students’ Ability to Discern and Share Fake News in the Philippines</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="Evaluating the Impact of Media and Information Literacy on Students' Ability to Discern and Share Fake News among University Students_files/libs/clipboard/clipboard.min.js"></script>
+<script src="Evaluating the Impact of Media and Information Literacy on Students' Ability to Discern and Share Fake News among University Students_files/libs/quarto-html/quarto.js"></script>
+<script src="Evaluating the Impact of Media and Information Literacy on Students' Ability to Discern and Share Fake News among University Students_files/libs/quarto-html/popper.min.js"></script>
+<script src="Evaluating the Impact of Media and Information Literacy on Students' Ability to Discern and Share Fake News among University Students_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="Evaluating the Impact of Media and Information Literacy on Students' Ability to Discern and Share Fake News among University Students_files/libs/quarto-html/anchor.min.js"></script>
+<link href="Evaluating the Impact of Media and Information Literacy on Students' Ability to Discern and Share Fake News among University Students_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="Evaluating the Impact of Media and Information Literacy on Students' Ability to Discern and Share Fake News among University Students_files/libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="Evaluating the Impact of Media and Information Literacy on Students' Ability to Discern and Share Fake News among University Students_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="Evaluating the Impact of Media and Information Literacy on Students' Ability to Discern and Share Fake News among University Students_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="Evaluating the Impact of Media and Information Literacy on Students' Ability to Discern and Share Fake News among University Students_files/libs/bootstrap/bootstrap-1bc8a17f135ab3d594c857e9f48e611b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+</head>
+
+<body>
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+<div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+  <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction"><span class="header-section-number">1</span> Introduction</a>
+  <ul class="collapse">
+  <li><a href="#social-media-use-and-prevalence-of-fake-news" id="toc-social-media-use-and-prevalence-of-fake-news" class="nav-link" data-scroll-target="#social-media-use-and-prevalence-of-fake-news"><span class="header-section-number">1.1</span> Social Media Use and Prevalence of Fake News</a></li>
+  <li><a href="#misinformation-in-political-decision-making" id="toc-misinformation-in-political-decision-making" class="nav-link" data-scroll-target="#misinformation-in-political-decision-making"><span class="header-section-number">1.2</span> Misinformation in Political Decision-making</a></li>
+  <li><a href="#addressing-misinformation-through-educational-initiatives-mil" id="toc-addressing-misinformation-through-educational-initiatives-mil" class="nav-link" data-scroll-target="#addressing-misinformation-through-educational-initiatives-mil"><span class="header-section-number">1.3</span> Addressing Misinformation Through Educational Initiatives (MIL)</a></li>
+  </ul></li>
+  <li><a href="#research-question" id="toc-research-question" class="nav-link" data-scroll-target="#research-question"><span class="header-section-number">2</span> Research Question</a></li>
+  <li><a href="#methods" id="toc-methods" class="nav-link" data-scroll-target="#methods"><span class="header-section-number">3</span> Methods</a>
+  <ul class="collapse">
+  <li><a href="#participants" id="toc-participants" class="nav-link" data-scroll-target="#participants"><span class="header-section-number">3.1</span> Participants</a></li>
+  <li><a href="#materials" id="toc-materials" class="nav-link" data-scroll-target="#materials"><span class="header-section-number">3.2</span> Materials</a></li>
+  <li><a href="#survey-items" id="toc-survey-items" class="nav-link" data-scroll-target="#survey-items"><span class="header-section-number">3.3</span> Survey Items</a></li>
+  <li><a href="#procedure" id="toc-procedure" class="nav-link" data-scroll-target="#procedure"><span class="header-section-number">3.4</span> Procedure</a></li>
+  <li><a href="#data-analysis" id="toc-data-analysis" class="nav-link" data-scroll-target="#data-analysis"><span class="header-section-number">3.5</span> Data Analysis</a></li>
+  </ul></li>
+  <li><a href="#results" id="toc-results" class="nav-link" data-scroll-target="#results"><span class="header-section-number">4</span> Results</a>
+  <ul class="collapse">
+  <li><a href="#quantitative-findings" id="toc-quantitative-findings" class="nav-link" data-scroll-target="#quantitative-findings"><span class="header-section-number">4.1</span> Quantitative Findings</a></li>
+  <li><a href="#qualitative-themes" id="toc-qualitative-themes" class="nav-link" data-scroll-target="#qualitative-themes"><span class="header-section-number">4.2</span> Qualitative Themes</a></li>
+  </ul></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion"><span class="header-section-number">5</span> Conclusion</a>
+  <ul class="collapse">
+  <li><a href="#recommendations" id="toc-recommendations" class="nav-link" data-scroll-target="#recommendations"><span class="header-section-number">5.1</span> Recommendations</a></li>
+  <li><a href="#limitations" id="toc-limitations" class="nav-link" data-scroll-target="#limitations"><span class="header-section-number">5.2</span> Limitations</a></li>
+  </ul></li>
+  <li><a href="#reference" id="toc-reference" class="nav-link" data-scroll-target="#reference"><span class="header-section-number">6</span> Reference</a></li>
+  </ul>
+</nav>
+</div>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Evaluating the Impact of Media and Information Literacy on University Students’ Ability to Discern and Share Fake News in the Philippines</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="introduction" class="level1" data-number="1">
+<h1 data-number="1"><span class="header-section-number">1</span> Introduction</h1>
+<section id="social-media-use-and-prevalence-of-fake-news" class="level2" data-number="1.1">
+<h2 data-number="1.1" class="anchored" data-anchor-id="social-media-use-and-prevalence-of-fake-news"><span class="header-section-number">1.1</span> Social Media Use and Prevalence of Fake News</h2>
+<p>The prevalence of social media in the Philippines has significantly increased in recent years, reshaping communication and information dissemination. As of 2023, approximately 76% of the Filipino population actively engages with social media platforms, facilitating personal interactions and the spread of information, including news. This heightened usage raises concerns about the dissemination of fake news, which has become increasingly significant in the socio-political context of the country. The digital landscape in the Philippines is particularly vulnerable to misinformation due to a combination of extensive social media adoption, varying digital literacy levels, and political polarization among users <span class="citation" data-cites="maningo2022covid hyun2024politicization">[<a href="#ref-maningo2022covid" role="doc-biblioref">1</a>, <a href="#ref-hyun2024politicization" role="doc-biblioref">2</a>]</span> .</p>
+<p>Recent studies indicate that despite a high awareness of fake news among users—especially among younger demographics—apathy and misinformation continue to thrive. A study conducted in Cebu City highlighted that while millennials are aware of the prevalence of fake news surrounding events like the COVID-19 pandemic, many exhibit a concerning level of disengagement. A significant percentage of respondents reported feeling overwhelmed by the volume of information <span class="citation" data-cites="maningo2022covid">[<a href="#ref-maningo2022covid" role="doc-biblioref">1</a>]</span> . This phenomenon, known as information overload, can lead to superficial engagement with content, where users may browse through emotionally charged posts without critically evaluating the validity of the information or the motives of the sources <span class="citation" data-cites="xiao2021who">[<a href="#ref-xiao2021who" role="doc-biblioref">3</a>]</span> .</p>
+<p>Further discourse suggests that individuals with strong political ideologies are more likely to perceive fake news as a problem for others, a phenomenon known as the third-person effect. This perception often correlates with greater support for government regulation of fake news, even as they may not recognize similar biases in their own information consumption <span class="citation" data-cites="hyun2024politicization">[<a href="#ref-hyun2024politicization" role="doc-biblioref">2</a>]</span> . The interplay between political affiliation and the spread of misinformation emphasizes the necessity of improving media literacy programs that help individuals critically analyze information, particularly leading up to significant events like elections—an area where surveys have indicated a growing concern about disinformation tactics and their impact on electoral integrity <span class="citation" data-cites="schipper2025disinformation">[<a href="#ref-schipper2025disinformation" role="doc-biblioref">4</a>]</span>.</p>
+<p>To combat the challenges posed by misinformation in the Philippines, various stakeholders are advocating for enhanced digital and media literacy initiatives. Research advocates that increasing the public’s ability to recognize misleading information is integral to safeguarding societal discourse <span class="citation" data-cites="xiao2021who svintsytskyi2023countering">[<a href="#ref-xiao2021who" role="doc-biblioref">3</a>, <a href="#ref-svintsytskyi2023countering" role="doc-biblioref">5</a>]</span> . The implementation of Digital Literacy Movements aims to equip individuals, particularly the youth, with skills necessary to navigate the evolving digital landscape and foster critical thinking regarding the content they engage with on social media <span class="citation" data-cites="izana2020implementation maningo2024digitalization">[<a href="#ref-izana2020implementation" role="doc-biblioref">6</a>, <a href="#ref-maningo2024digitalization" role="doc-biblioref">7</a>]</span> . Educational frameworks that integrate new media literacy concepts are deemed pivotal in adapting to the rapid evolution of media forms and their associated challenges <span class="citation" data-cites="maningo2024digitalization baterna2020digital">[<a href="#ref-maningo2024digitalization" role="doc-biblioref">7</a>, <a href="#ref-baterna2020digital" role="doc-biblioref">8</a>]</span> .</p>
+<p>As the Philippines grapples with these challenges, the collective effort to improve media literacy will be crucial in mitigating the effects of fake news and fostering a more informed citizenry capable of engaging with digital media responsibly <span class="citation" data-cites="maningo2022covid hyun2024politicization schipper2025disinformation">[<a href="#ref-maningo2022covid" role="doc-biblioref">1</a>, <a href="#ref-hyun2024politicization" role="doc-biblioref">2</a>, <a href="#ref-schipper2025disinformation" role="doc-biblioref">4</a>]</span> .</p>
+</section>
+<section id="misinformation-in-political-decision-making" class="level2" data-number="1.2">
+<h2 data-number="1.2" class="anchored" data-anchor-id="misinformation-in-political-decision-making"><span class="header-section-number">1.2</span> Misinformation in Political Decision-making</h2>
+<p>As individuals turn to online platforms for news, they encounter a deluge of information that may include inaccuracies and distortions, leading to substantial implications for democratic processes and civic engagement. Misinformation can exacerbate political cynicism, as demonstrated by findings from the 2020 U.S. Presidential election. Research indicates that increased exposure to misinformation through social media is positively correlated with higher levels of political cynicism among users <span class="citation" data-cites="lee2024cynical">[<a href="#ref-lee2024cynical" role="doc-biblioref">9</a>]</span>. This relationship highlights how misinformation does not merely mislead individuals but also fosters disillusionment with political institutions and processes.</p>
+<p>Furthermore, misinformation’s impact extends beyond individual attitudes to influence broader political behaviors and civic engagement. For instance, misinformation about health issues, particularly during crises such as the COVID-19 pandemic, can sway public opinion on policy decisions, affecting electoral participation. In areas where political and health-related misinformation proliferates, there are significant concerns regarding how misinformation distorts citizens’ expectations of political leaders and undermines public trust <span class="citation" data-cites="angelis2022editorial">[<a href="#ref-angelis2022editorial" role="doc-biblioref">10</a>]</span> . This undermines their commitment to civic responsibilities, including informed voting and participation in democratic processes.</p>
+<p>The consequences of misinformation are further amplified by the dynamics of social media, where false narratives can spread rapidly, creating echo chambers that reinforce existing beliefs <span class="citation" data-cites="pan2021examination">[<a href="#ref-pan2021examination" role="doc-biblioref">11</a>]</span> . The concept of collective influence suggests that individuals are not merely passive recipients of misinformation; they engage in selective sharing based on their partisan biases, which compounds the problem <span class="citation" data-cites="shin2017partisan">[<a href="#ref-shin2017partisan" role="doc-biblioref">12</a>]</span>. Misinformation can distort public discussions around crucial policies, steering voters away from rational decision-making and towards ideologically motivated reasoning <span class="citation" data-cites="shehata2025exploration">[<a href="#ref-shehata2025exploration" role="doc-biblioref">13</a>]</span> .</p>
+<p>Moreover, individuals often exhibit a reluctance to change beliefs even when confronted with corrections to misinformation, a phenomenon known as the continued influence effect <span class="citation" data-cites="ecker2022psychological">[<a href="#ref-ecker2022psychological" role="doc-biblioref">14</a>]</span>. This can have dangerous implications for political decision-making, as voters may remain anchored to false beliefs that misinform their choices. Particularly in polarized environments, the challenge becomes not only discerning accurate information but also overcoming cognitive biases that reinforce the acceptance of misinformation <span class="citation" data-cites="dewan2024mind">[<a href="#ref-dewan2024mind" role="doc-biblioref">15</a>]</span> .</p>
+<p>Overall, the integration of misinformation into political discourse poses significant risks to democratic stability and civic integrity. The rejection of factual information in favor of misleading narratives threatens not only individual decision-making but can ultimately undermine the foundation of democratic governance itself <span class="citation" data-cites="jain2023dark">[<a href="#ref-jain2023dark" role="doc-biblioref">16</a>]</span>. Combating this requires a multifaceted approach, including enhancing media literacy among citizens to cultivate critical thinking and discernment in the face of online misinformation <span class="citation" data-cites="harich2024applying">[<a href="#ref-harich2024applying" role="doc-biblioref">17</a>]</span>.</p>
+</section>
+<section id="addressing-misinformation-through-educational-initiatives-mil" class="level2" data-number="1.3">
+<h2 data-number="1.3" class="anchored" data-anchor-id="addressing-misinformation-through-educational-initiatives-mil"><span class="header-section-number">1.3</span> Addressing Misinformation Through Educational Initiatives (MIL)</h2>
+<p>Addressing misinformation through educational initiatives, particularly media and information literacy (MIL), is increasingly recognized as critical in today’s digital landscape. Misinformation can undermine public health efforts, skew political beliefs, and erode social trust. Educational initiatives aimed at improving literacy in media consumption can empower individuals to navigate the complex information ecosystem and critically evaluate the content they encounter.</p>
+<p>One significant finding is that integrating interdisciplinary approaches in education can enhance the effectiveness of misinformation correction. For instance, a study highlighted the importance of community-engaged science communication training, which encourages students to adopt inclusive and participatory methods for addressing science misinformation. Students learned to value building trust alongside correcting misinformation, suggesting that educational programs that merge scientific skills with communication strategies can improve outcomes in combating misinformation. This not only equips students with the necessary tools to discern credible information but also fosters a more informed public capable of participating in discourse regarding scientific and socio-political issues <span class="citation" data-cites="cagle2025stop">[<a href="#ref-cagle2025stop" role="doc-biblioref">18</a>]</span>.</p>
+<p>Moreover, the relationship between education and misinformation acceptance underscores the critical role of MIL in enhancing individuals’ ability to evaluate the veracity of information. Research indicates a widening gap in misinformation acceptance based on educational background, which could exacerbate health and social issues <span class="citation" data-cites="hwang2023education">[<a href="#ref-hwang2023education" role="doc-biblioref">19</a>]</span>. This suggests that educational systems need to prioritize MIL to help students become more discerning consumers of information. By doing so, they can withstand the surges of misinformation that frequently accompany crises such as health emergencies or political events.</p>
+<p>Health misinformation, particularly during the COVID-19 pandemic, has demonstrated the detrimental effects on public health outcomes. Acknowledging the role of health literacy as a form of educational initiative is vital in this context. Programs aimed at improving health literacy can significantly reduce the susceptibility to health misinformation by enabling individuals to better understand and seek reliable sources of health information <span class="citation" data-cites="wang2023effects">[<a href="#ref-wang2023effects" role="doc-biblioref">20</a>]</span>. Additionally, educating healthcare professionals about recognizing and addressing misinformation can bolster their effectiveness in patient communication <span class="citation" data-cites="sharman2023recognising sheng2023role">[<a href="#ref-sharman2023recognising" role="doc-biblioref">21</a>, <a href="#ref-sheng2023role" role="doc-biblioref">22</a>]</span> . Not only must they convey correct information, but they should also engage with empathy to address existing misconceptions while promoting evidence-based practices.</p>
+<p>An equally important aspect of combating misinformation through educational initiatives is the use of technology and media platforms in an increasingly digital age. A literature review noted that social media serves both as a pervasive source of misinformation and a potential tool for education <span class="citation" data-cites="huang2021review">[<a href="#ref-huang2021review" role="doc-biblioref">23</a>]</span> . By incorporating digital literacy programs that teach individuals how to critically assess the content encountered on social media, educational initiatives can address the infodemic effectively. Such programs intend to develop skills in identifying misleading information, analyzing sources, and recognizing biases <span class="citation" data-cites="grover2024online">[<a href="#ref-grover2024online" role="doc-biblioref">24</a>]</span>.</p>
+<p>Finally, the continued exploration of innovative educational approaches is essential, especially in the face of an evolving misinformation landscape. Collaborative efforts, like the Implementing Mitigating Misinformation Toolkit or interprofessional education curricula that address misinformation, represent promising strategies to unify knowledge across disciplines and engage learners <span class="citation" data-cites="hayman2024mitigating vraga2020creating">[<a href="#ref-hayman2024mitigating" role="doc-biblioref">25</a>, <a href="#ref-vraga2020creating" role="doc-biblioref"><strong>vraga2020creating?</strong></a>]</span>. These initiatives aim not just to impart knowledge but also to foster collaborative skills among future leaders tasked with combating misinformation in their respective fields.</p>
+</section>
+</section>
+<section id="research-question" class="level1" data-number="2">
+<h1 data-number="2"><span class="header-section-number">2</span> Research Question</h1>
+<p>This study investigates the influence of media and information literacy (MIL) skills acquired through education on students’ ability to assess the veracity of news headlines and their intentions to share potentially false information. Specifically, the study addresses the research question:</p>
+<blockquote class="blockquote">
+<p>RQ: How do information literacy skills from MIL education influence students’ evaluation of headline veracity and their intentions to share fake news?</p>
+</blockquote>
+<p>This question seeks to understand if structured MIL education, particularly courses like LIS 50 and LIS 10 at the University of the Philippines, significantly enhance students’ capacities to discern factual news from misinformation, and whether such educational interventions affect their subsequent sharing behavior. Addressing this research question provides insights into the effectiveness of MIL educational practices and their potential role in mitigating the spread of misinformation on social media platforms.</p>
+</section>
+<section id="methods" class="level1" data-number="3">
+<h1 data-number="3"><span class="header-section-number">3</span> Methods</h1>
+<section id="participants" class="level2" data-number="3.1">
+<h2 data-number="3.1" class="anchored" data-anchor-id="participants"><span class="header-section-number">3.1</span> Participants</h2>
+<p>Participants were recruited via Formbricks on the UP SLIS Facebook page and website <strong>(N=66)</strong>. Eligibility criteria included: (a) <em>LIS students who completed LIS 50</em>; (b) <em>non‑LIS students enrolled in the General Education course LIS 10</em>; and (c) <em>non‑LIS students who had not taken LIS 10 or LIS 50 (control group)</em>. Demographic data (age, gender, academic program) were collected to describe the sample and check for potential confounds.</p>
+</section>
+<section id="materials" class="level2" data-number="3.2">
+<h2 data-number="3.2" class="anchored" data-anchor-id="materials"><span class="header-section-number">3.2</span> Materials</h2>
+<p><strong>Headlines:</strong> 28 Facebook‐style headlines (14 real, 14 fake) posted between February and June 2025. Real headlines were drawn from the Facebook pages of leading Philippine news outlets (<a href="https://www.facebook.com/GMANetwork"><em>GMA Network</em></a><em>, <a href="https://www.facebook.com/ManilaBulletin">Manila Bulletin</a>, <a href="https://www.facebook.com/dzbb594/">Super Radyo DZBB</a>, <a href="https://www.facebook.com/philippinedailyinquirer">Philippine Daily Inquirer</a>, <a href="https://www.facebook.com/TV5manila">TV5</a>, <a href="https://www.facebook.com/ABSCBNnetwork">ABS‑CBN</a>, and <a href="https://www.facebook.com/PhilippineSTAR">The Philippine Star</a></em>). Fake headlines were obtained from <a href="https://www.tsek.ph/"><em>Tsek.Ph</em></a>, an IFCN‑accredited fact‑checking platform focusing on election misinformation.</p>
+</section>
+<section id="survey-items" class="level2" data-number="3.3">
+<h2 data-number="3.3" class="anchored" data-anchor-id="survey-items"><span class="header-section-number">3.3</span> Survey Items</h2>
+<p>For each headline, two binary items: (a) Accuracy Judgment (“To the best of your knowledge, is this claim in the above headline accurate?”; Yes/No), and (b) Sharing Intention (“Would you consider sharing this story online through Facebook?”; Yes/No).</p>
+</section>
+<section id="procedure" class="level2" data-number="3.4">
+<h2 data-number="3.4" class="anchored" data-anchor-id="procedure"><span class="header-section-number">3.4</span> Procedure</h2>
+<p>Participants first completed demographic and social‑media usage questions. Headlines were then presented one at a time in randomized order. After each headline, participants indicated an accuracy judgment and a sharing intention. Finally, open‑ended questions captured rationales for their judgments and sharing decisions.</p>
+</section>
+<section id="data-analysis" class="level2" data-number="3.5">
+<h2 data-number="3.5" class="anchored" data-anchor-id="data-analysis"><span class="header-section-number">3.5</span> Data Analysis</h2>
+<p><strong>R Packages:</strong> Analyses were conducted in R (v4.x)<span class="citation" data-cites="R">[<a href="#ref-R" role="doc-biblioref">26</a>]</span> using readxl<span class="citation" data-cites="readxl">[<a href="#ref-readxl" role="doc-biblioref">27</a>]</span> and dplyr<span class="citation" data-cites="dplyr">[<a href="#ref-dplyr" role="doc-biblioref">28</a>]</span> .</p>
+<p><strong>MIL Exposure Coding:</strong> Participants were classified as “MIL” if they had taken LIS 10 or LIS 50, and “No MIL” otherwise.</p>
+<p><strong>Flag Computation:</strong> For each of the 28 accuracy items, responses were compared against the answer key to generate binary flags <code>(corr1…corr28)</code>. For each of the 28 sharing items, responses were coded into <code>share1…share28 (Yes = 1; No = 0)</code>.</p>
+<p><strong>Score Calculation:</strong> A row‐wise sum of corr* flags yielded an <code>accuracy_score (0–28)</code>. A row‐wise sum of <code>share* flags</code> yielded a <code>sharing_score (0–28)</code>.</p>
+<p><strong>Statistical Tests:</strong> <code>One-way ANOVAs</code> assessed differences in <code>accuracy_score</code> and <code>sharing_score</code> by MIL exposure. Statistical significance was evaluated at <span class="math inline">\(α\)</span> = .05.</p>
+<p><strong>Qualitative Analysis:</strong> Open‐ended responses were thematically coded to identify the criteria used for accuracy judgments (e.g., source credibility, language cues, verification strategies) and motivations for sharing or withholding content.</p>
+<p><strong>Transparency and Reproducibility:</strong> All materials used in this paper’s preprint (datasets, code, instruments) are publicly available at: https://github.com/panda-lab-slis/informationliteracy</p>
+</section>
+</section>
+<section id="results" class="level1" data-number="4">
+<h1 data-number="4"><span class="header-section-number">4</span> Results</h1>
+<p>The analysis investigated whether participation in MIL courses (LIS 10 or LIS 50) influenced students’ abilities to correctly identify fake news and their willingness to share content online. Results are organized into quantitative comparisons and qualitative insights.</p>
+<section id="quantitative-findings" class="level2" data-number="4.1">
+<h2 data-number="4.1" class="anchored" data-anchor-id="quantitative-findings"><span class="header-section-number">4.1</span> Quantitative Findings</h2>
+<p><a href="#tbl-summary" class="quarto-xref">Table&nbsp;1</a> displays descriptive statistics for accuracy and sharing scores by MIL exposure. Both groups performed nearly identically in identifying true versus false headlines (MIL: M = 9.91, SD = 1.63; No MIL: M = 9.90, SD = 1.92). Sharing intentions were also similar (MIL: M = 2.59 shares, SD = 2.33; No MIL: M = 2.43 shares, SD = 2.70).</p>
+<div class="cell">
+<div id="tbl-summary" class="cell quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-summary-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;1. Descriptive statistics by MIL exposure
+</figcaption>
+<div aria-describedby="tbl-summary-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="cell-output-display">
+<table class="do-not-create-environment cell caption-top table table-sm table-striped small">
+<thead>
+<tr class="header">
+<th style="text-align: left;">MIL Exposure</th>
+<th style="text-align: right;">Mean Accuracy</th>
+<th style="text-align: right;">SD Accuracy</th>
+<th style="text-align: right;">Mean Sharing</th>
+<th style="text-align: right;">SD Sharing</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">MIL</td>
+<td style="text-align: right;">9.91</td>
+<td style="text-align: right;">1.63</td>
+<td style="text-align: right;">2.59</td>
+<td style="text-align: right;">2.33</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">No MIL</td>
+<td style="text-align: right;">9.90</td>
+<td style="text-align: right;">1.92</td>
+<td style="text-align: right;">2.43</td>
+<td style="text-align: right;">2.70</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</figure>
+</div>
+</div>
+<p>One-way ANOVAs tested whether MIL exposure explained variance in scores. <a href="#tbl-anova-accuracy" class="quarto-xref">Table&nbsp;2</a> shows the test for accuracy: the sum of squares attributable to MIL was virtually zero (SS = 0.001), producing F(1, 60) = 0.0006, p = 0.989, indicating no significant group difference.</p>
+<div class="cell">
+<div id="tbl-anova-accuracy" class="cell quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-anova-accuracy-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;2. ANOVA for Accuracy Score by MIL exposure
+</figcaption>
+<div aria-describedby="tbl-anova-accuracy-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="cell-output-display">
+<table class="do-not-create-environment cell caption-top table table-sm table-striped small">
+<thead>
+<tr class="header">
+<th style="text-align: left;">term</th>
+<th style="text-align: right;">df</th>
+<th style="text-align: right;">sumsq</th>
+<th style="text-align: right;">meansq</th>
+<th style="text-align: right;">statistic</th>
+<th style="text-align: right;">p.value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">MIL_exposure</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0.001</td>
+<td style="text-align: right;">0.001</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0.989</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Residuals</td>
+<td style="text-align: right;">60</td>
+<td style="text-align: right;">189.419</td>
+<td style="text-align: right;">3.157</td>
+<td style="text-align: right;">NA</td>
+<td style="text-align: right;">NA</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</figure>
+</div>
+</div>
+<p>Similarly, <a href="#tbl-anova-sharing" class="quarto-xref">Table&nbsp;3</a> presents the ANOVA for sharing intentions, with F(1, 60) = 0.063, p = 0.803, confirming no significant effect of MIL exposure.</p>
+<div class="cell">
+<div id="tbl-anova-sharing" class="cell quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-anova-sharing-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;3. ANOVA for Sharing Score by MIL exposure
+</figcaption>
+<div aria-describedby="tbl-anova-sharing-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="cell-output-display">
+<table class="do-not-create-environment cell caption-top table table-sm table-striped small">
+<thead>
+<tr class="header">
+<th style="text-align: left;">term</th>
+<th style="text-align: right;">df</th>
+<th style="text-align: right;">sumsq</th>
+<th style="text-align: right;">meansq</th>
+<th style="text-align: right;">statistic</th>
+<th style="text-align: right;">p.value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">MIL_exposure</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0.398</td>
+<td style="text-align: right;">0.398</td>
+<td style="text-align: right;">0.063</td>
+<td style="text-align: right;">0.803</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Residuals</td>
+<td style="text-align: right;">60</td>
+<td style="text-align: right;">379.085</td>
+<td style="text-align: right;">6.318</td>
+<td style="text-align: right;">NA</td>
+<td style="text-align: right;">NA</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</figure>
+</div>
+</div>
+<p>Contrary to studies by Guess et al.<span class="citation" data-cites="guess2020digital">[<a href="#ref-guess2020digital" role="doc-biblioref">29</a>]</span> or Jones‑Jang et al.<span class="citation" data-cites="jones_jang2021does">[<a href="#ref-jones_jang2021does" role="doc-biblioref">30</a>]</span> demonstrating that targeted MIL interventions can boost fake-news detection, our findings show no measurable advantage for students who completed LIS 10 or LIS 50. This aligns with research suggesting that singular educational exposures may produce short-lived or subtle gains according to Pennycook &amp; Rand <span class="citation" data-cites="pennycook2021psychology">[<a href="#ref-pennycook2021psychology" role="doc-biblioref">31</a>]</span> and that sharing behavior is influenced by emotional or social motivations beyond mere detection skills. Possible explanations include:</p>
+<ul>
+<li><p>Ceiling effects: High baseline performance left little room for improvement.</p></li>
+<li><p>Course content scope: MIL curricula may emphasize source evaluation but not practical sharing judgments.</p></li>
+<li><p>Measurement sensitivity: Binary forced-choice tasks may not capture nuanced critical thinking.</p></li>
+</ul>
+</section>
+<section id="qualitative-themes" class="level2" data-number="4.2">
+<h2 data-number="4.2" class="anchored" data-anchor-id="qualitative-themes"><span class="header-section-number">4.2</span> Qualitative Themes</h2>
+<p>Analysis of open-ended responses revealed that students use a combination of cognitive and affective processes when evaluating and deciding to share headlines:</p>
+<ol type="1">
+<li><p><strong>Source Credibility</strong><br>
+Trust in recognized news outlets and fact-checkers guided judgments. This supports inoculation theory’s emphasis on equipping learners with heuristics to preempt misinformation <span class="citation" data-cites="mcguire1964some huang2024media">[<a href="#ref-mcguire1964some" role="doc-biblioref">32</a>, <a href="#ref-huang2024media" role="doc-biblioref">33</a>]</span>.</p></li>
+<li><p><strong>Linguistic Cues</strong><br>
+Participants flagged sensational phrasing, exaggerated claims, or grammatical errors as red flags. This mirrors techniques employed in technique-based inoculation, where understanding persuasive tactics fosters resilience <span class="citation" data-cites="roozenbeek2022technique">[<a href="#ref-roozenbeek2022technique" role="doc-biblioref">34</a>]</span> .</p></li>
+<li><p><strong>Verification Practices</strong><br>
+Many described cross-checking headlines through online searches or dedicated fact-checking sites before sharing. This active strategy reflects deeper analytic engagement and parallels findings that deliberative thinking reduces fake-news belief <span class="citation" data-cites="bago2020fake">[<a href="#ref-bago2020fake" role="doc-biblioref">35</a>]</span>.</p></li>
+</ol>
+<p><strong>Sharing Motivations</strong></p>
+<ul>
+<li><p><strong>Ethical Responsibility</strong>: A strong desire to avoid spreading falsehoods discouraged sharing despite recognition of accuracy.</p></li>
+<li><p><strong>Audience Relevance</strong>: Content perceived as irrelevant to one’s network was seldom shared, indicating social utility considerations.</p></li>
+<li><p><strong>Emotional Engagement</strong>: Outrage, amusement, or emotional resonance sometimes overrode accuracy concerns, consistent with research on affect-driven sharing <span class="citation" data-cites="roozenbeek2022technique">[<a href="#ref-roozenbeek2022technique" role="doc-biblioref">34</a>]</span>.</p></li>
+</ul>
+<p>These qualitative insights underscore that improving fake-news discernment alone may not suffice to change sharing behavior. Educational interventions should integrate reflective components on social and emotional drivers of sharing, aligning critical evaluation with responsible digital citizenship.</p>
+</section>
+</section>
+<section id="conclusion" class="level1" data-number="5">
+<h1 data-number="5"><span class="header-section-number">5</span> Conclusion</h1>
+<p>The findings indicate that completing MIL coursework (LIS 10 or LIS 50) does not produce statistically significant improvements in students’ abilities to discern fake headlines or alter their intentions to share such content on social media. Accuracy scores and sharing scores were virtually identical between those with and without MIL exposure, suggesting that a single course may be insufficient to shift underlying cognitive and behavioral patterns.</p>
+<section id="recommendations" class="level2" data-number="5.1">
+<h2 data-number="5.1" class="anchored" data-anchor-id="recommendations"><span class="header-section-number">5.1</span> Recommendations</h2>
+<ol type="1">
+<li><p>Integrated Learning Modules: Embed MIL principles within broader curricula rather than standalone courses. Reinforce critical evaluation skills across multiple classes and contexts to deepen retention.</p></li>
+<li><p>Reflective Sharing Exercises: Develop activities where students track and reflect on their real-world sharing behaviors over time, linking accuracy judgments with social and emotional factors that drive sharing.</p></li>
+<li><p>Scenario-Based Simulations: Use immersive scenarios—such as role-playing or interactive fake-news outbreaks—to practice detection under realistic time pressure and peer influence, mirroring real social media dynamics.</p></li>
+<li><p>Collaborative Fact-Checking Labs: Create group-based fact-checking projects where students collaborate to verify emerging claims, fostering both analytical skills and social accountability.</p></li>
+<li><p>Longitudinal Assessment: Implement follow-up evaluations months after instruction to detect longer-term impacts and refine interventions accordingly.</p></li>
+</ol>
+</section>
+<section id="limitations" class="level2" data-number="5.2">
+<h2 data-number="5.2" class="anchored" data-anchor-id="limitations"><span class="header-section-number">5.2</span> Limitations</h2>
+<ol type="1">
+<li><p>Sample Size and Scope: The modest sample (N = 66) limits statistical power and generalizability. Participants were drawn from a single institution, potentially reflecting shared baseline competencies.</p></li>
+<li><p>Measurement Constraints: Binary forced-choice items may not capture nuanced evaluative processes. More graded or open-ended accuracy assessments could reveal subtler improvements.</p></li>
+<li><p>Short-Term Evaluation: Data were collected immediately after course completion. The study does not assess retention or transfer of MIL skills over time.</p></li>
+<li><p>Self-Reported Intentions: Sharing intentions may not correspond to actual behavior. Tracking real sharing activity on social platforms would enhance ecological validity.</p></li>
+<li><p>Content Homogeneity: Headlines were limited to election-related items from a narrow timeframe. Including diverse topics and formats (e.g., images, videos) could test MIL applicability across contexts.</p></li>
+<li><p>Addressing these limitations will strengthen future research and support the design of robust MIL interventions that yield measurable improvements in both critical evaluation and sharing behavior.</p></li>
+</ol>
+</section>
+</section>
+<section id="reference" class="level1 unnumbered" data-number="6">
+
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">6 Reference</h2><div id="refs" class="references csl-bib-body" data-entry-spacing="0" role="list">
+<div id="ref-maningo2022covid" class="csl-entry" role="listitem">
+<div class="csl-left-margin">1. </div><div class="csl-right-inline">Maningo, C., Dacuno, J., Rosario, N.D., Dumaguit, R., Garay, C., Villahermosa, H.: COVID-19 social media infodemic: The new media literacy level and the ability to recognize fake news among cebu city young adults. ASR: Chiang Mai University Journal of Social Sciences and Humanities. 9, (2022). https://doi.org/<a href="https://doi.org/10.12982/cmujasr.2022.013">10.12982/cmujasr.2022.013</a>.</div>
+</div>
+<div id="ref-hyun2024politicization" class="csl-entry" role="listitem">
+<div class="csl-left-margin">2. </div><div class="csl-right-inline">Hyun, K.D., Seo, M., Lee, G.: Politicization of fake news debates and citizen attitudes towards fake news and its regulation. Journalism. 25, (2024). https://doi.org/<a href="https://doi.org/10.1177/14648849241231061">10.1177/14648849241231061</a>.</div>
+</div>
+<div id="ref-xiao2021who" class="csl-entry" role="listitem">
+<div class="csl-left-margin">3. </div><div class="csl-right-inline">Xiao, X., Su, Y., Lee, D.K.L.: Who consumes new media content more wisely? Examining personality factors, SNS use, and new media literacy in the era of misinformation. Social Media and Society. 7, (2021). https://doi.org/<a href="https://doi.org/10.1177/2056305121990635">10.1177/2056305121990635</a>.</div>
+</div>
+<div id="ref-schipper2025disinformation" class="csl-entry" role="listitem">
+<div class="csl-left-margin">4. </div><div class="csl-right-inline">Schipper, T.: Disinformation by design: Leveraging solutions to combat misinformation in the philippines’ 2025 election. Data &amp; Policy. 7, e39 (2025). https://doi.org/<a href="https://doi.org/10.1017/DAP.2025.18">10.1017/DAP.2025.18</a>.</div>
+</div>
+<div id="ref-svintsytskyi2023countering" class="csl-entry" role="listitem">
+<div class="csl-left-margin">5. </div><div class="csl-right-inline">Svintsytskyi, A.V., Semeniuk, O.H., Ufimtseva, O.S., Irkha, Y.B., Suslin, S.V.: Countering fake information as a guarantee of state information security. Security Journal. 36, (2023). https://doi.org/<a href="https://doi.org/10.1057/s41284-022-00347-0">10.1057/s41284-022-00347-0</a>.</div>
+</div>
+<div id="ref-izana2020implementation" class="csl-entry" role="listitem">
+<div class="csl-left-margin">6. </div><div class="csl-right-inline">Izana, N., Rahayu, D.: The implementation of digital literacy programs at high school in malang raya. Presented at the (2020). https://doi.org/<a href="https://doi.org/10.4108/eai.23-10-2019.2293065">10.4108/eai.23-10-2019.2293065</a>.</div>
+</div>
+<div id="ref-maningo2024digitalization" class="csl-entry" role="listitem">
+<div class="csl-left-margin">7. </div><div class="csl-right-inline">Maningo, C.A., Hlaing, S.P.A.M.: Digitalization amidst educational crises: A comparative study of the new media literacy (NML) levels of the philippines and myanmar. Asian Politics and Policy. 16, (2024). https://doi.org/<a href="https://doi.org/10.1111/aspp.12728">10.1111/aspp.12728</a>.</div>
+</div>
+<div id="ref-baterna2020digital" class="csl-entry" role="listitem">
+<div class="csl-left-margin">8. </div><div class="csl-right-inline">Baterna, H.B., Mina, T.D.G., Rogayan, D.V.: Digital literacy of STEM senior high school students: Basis for enhancement program. International Journal of Technology in Education. 3, (2020). https://doi.org/<a href="https://doi.org/10.46328/ijte.v3i2.28">10.46328/ijte.v3i2.28</a>.</div>
+</div>
+<div id="ref-lee2024cynical" class="csl-entry" role="listitem">
+<div class="csl-left-margin">9. </div><div class="csl-right-inline">Lee, S., Jones-Jang, S.M.: Cynical nonpartisans: The role of misinformation in political cynicism during the 2020 u.s. Presidential election. New Media and Society. 26, (2024). https://doi.org/<a href="https://doi.org/10.1177/14614448221116036">10.1177/14614448221116036</a>.</div>
+</div>
+<div id="ref-angelis2022editorial" class="csl-entry" role="listitem">
+<div class="csl-left-margin">10. </div><div class="csl-right-inline">Angelis, A.D., Farhart, C.E., Merkley, E., Stecula, D.A.: Editorial: Political misinformation in the digital age during a pandemic: Partisanship, propaganda, and democratic decision-making, (2022). https://doi.org/<a href="https://doi.org/10.3389/fpos.2022.897095">10.3389/fpos.2022.897095</a>.</div>
+</div>
+<div id="ref-pan2021examination" class="csl-entry" role="listitem">
+<div class="csl-left-margin">11. </div><div class="csl-right-inline">Pan, W., Liu, D., Fang, J.: An examination of factors contributing to the acceptance of online health misinformation. Frontiers in Psychology. 12, (2021). https://doi.org/<a href="https://doi.org/10.3389/fpsyg.2021.630268">10.3389/fpsyg.2021.630268</a>.</div>
+</div>
+<div id="ref-shin2017partisan" class="csl-entry" role="listitem">
+<div class="csl-left-margin">12. </div><div class="csl-right-inline">Shin, J., Thorson, K.: Partisan selective sharing: The biased diffusion of fact-checking messages on social media. Journal of Communication. 67, (2017). https://doi.org/<a href="https://doi.org/10.1111/jcom.12284">10.1111/jcom.12284</a>.</div>
+</div>
+<div id="ref-shehata2025exploration" class="csl-entry" role="listitem">
+<div class="csl-left-margin">13. </div><div class="csl-right-inline">Shehata, A.M.K., Al-Suqri, M.N., Alsalmi, J., Osman, N.E., Alrashdi, S., Khalaf, M.A.: An exploration of perceptions and use of misinformation on the social web in oman. Global Knowledge, Memory and Communication. 74, (2025). https://doi.org/<a href="https://doi.org/10.1108/GKMC-08-2022-0190">10.1108/GKMC-08-2022-0190</a>.</div>
+</div>
+<div id="ref-ecker2022psychological" class="csl-entry" role="listitem">
+<div class="csl-left-margin">14. </div><div class="csl-right-inline">Ecker, U.K.H., Lewandowsky, S., Cook, J., Schmid, P., Fazio, L.K., Brashier, N., Kendeou, P., Vraga, E.K., Amazeen, M.A.: The psychological drivers of misinformation belief and its resistance to correction, (2022). https://doi.org/<a href="https://doi.org/10.1038/s44159-021-00006-y">10.1038/s44159-021-00006-y</a>.</div>
+</div>
+<div id="ref-dewan2024mind" class="csl-entry" role="listitem">
+<div class="csl-left-margin">15. </div><div class="csl-right-inline">Dewan, M., Shah, C.: Mind over misinformation: Investigating the factors of cognitive influences in information acceptance. Proceedings of the Association for Information Science and Technology. 61, 886–888 (2024). https://doi.org/<a href="https://doi.org/10.1002/pra2.1129">10.1002/pra2.1129</a>.</div>
+</div>
+<div id="ref-jain2023dark" class="csl-entry" role="listitem">
+<div class="csl-left-margin">16. </div><div class="csl-right-inline">Jain, A.: Dark side of social media: How online platforms enable the spread of misinformation and conspiracy theories. Journal of Communication and Management. 2, (2023). https://doi.org/<a href="https://doi.org/10.58966/jcm2023241">10.58966/jcm2023241</a>.</div>
+</div>
+<div id="ref-harich2024applying" class="csl-entry" role="listitem">
+<div class="csl-left-margin">17. </div><div class="csl-right-inline">Harich, J.: Applying root cause analysis to determine the most effective media literacy strategy for preventing susceptibility to political misinformation. (2024). https://doi.org/<a href="https://doi.org/10.31235/OSF.IO/HVP97">10.31235/OSF.IO/HVP97</a>.</div>
+</div>
+<div id="ref-cagle2025stop" class="csl-entry" role="listitem">
+<div class="csl-left-margin">18. </div><div class="csl-right-inline">Cagle, S.M., Anderson, A.A., Kelp, N.C.: Stop the spread: Empowering students to address misinformation through community-engaged, interdisciplinary science communication training. Journal of Research in Science Teaching. 62, 721–755 (2025). https://doi.org/<a href="https://doi.org/10.1002/TEA.21971;JOURNAL:JOURNAL:10982736;PAGEGROUP:STRING:PUBLICATION">10.1002/TEA.21971;JOURNAL:JOURNAL:10982736;PAGEGROUP:STRING:PUBLICATION</a>.</div>
+</div>
+<div id="ref-hwang2023education" class="csl-entry" role="listitem">
+<div class="csl-left-margin">19. </div><div class="csl-right-inline">Hwang, Y., Jeong, S.H.: Education-based gap in misinformation acceptance: Does the gap increase as misinformation exposure increases? Communication Research. 50, (2023). https://doi.org/<a href="https://doi.org/10.1177/00936502221121509">10.1177/00936502221121509</a>.</div>
+</div>
+<div id="ref-wang2023effects" class="csl-entry" role="listitem">
+<div class="csl-left-margin">20. </div><div class="csl-right-inline">Wang, W., Jacobson, S.: Effects of health misinformation on misbeliefs: Understanding the moderating roles of different types of knowledge. Journal of Information, Communication and Ethics in Society. 21, (2023). https://doi.org/<a href="https://doi.org/10.1108/JICES-02-2022-0015">10.1108/JICES-02-2022-0015</a>.</div>
+</div>
+<div id="ref-sharman2023recognising" class="csl-entry" role="listitem">
+<div class="csl-left-margin">21. </div><div class="csl-right-inline">Sharman, J.: Recognising and addressing health misinformation in nursing practice. Primary Health Care. 33, (2023). https://doi.org/<a href="https://doi.org/10.7748/phc.2023.e1791">10.7748/phc.2023.e1791</a>.</div>
+</div>
+<div id="ref-sheng2023role" class="csl-entry" role="listitem">
+<div class="csl-left-margin">22. </div><div class="csl-right-inline">Sheng, A.Y., Gottlieb, M., Bautista, J.R., Trueger, N.S., Westafer, L.M., Gisondi, M.A.: The role of graduate medical education in the fight against health misinformation, (2023). https://doi.org/<a href="https://doi.org/10.4300/JGME-D-22-00383.1">10.4300/JGME-D-22-00383.1</a>.</div>
+</div>
+<div id="ref-huang2021review" class="csl-entry" role="listitem">
+<div class="csl-left-margin">23. </div><div class="csl-right-inline">Huang, T.: A review of misinformation across disciplines: Implication for online education. (2021). https://doi.org/<a href="https://doi.org/10.20944/PREPRINTS202108.0511.V1">10.20944/PREPRINTS202108.0511.V1</a>.</div>
+</div>
+<div id="ref-grover2024online" class="csl-entry" role="listitem">
+<div class="csl-left-margin">24. </div><div class="csl-right-inline">Grover, H., Nour, R., Powell, L.: Online interventions addressing health misinformation: Protocol for a scoping review. (2024). https://doi.org/<a href="https://doi.org/10.31219/OSF.IO/MFUJB">10.31219/OSF.IO/MFUJB</a>.</div>
+</div>
+<div id="ref-hayman2024mitigating" class="csl-entry" role="listitem">
+<div class="csl-left-margin">25. </div><div class="csl-right-inline">Hayman, J., Nelson, S.W., Mallory, L.A., Dornblaser, E.K., Chaudron, L.H., Nichols, S., Mallar, C., Rocheleau, B., Stickney, I., Prast, B., Konrad, S.C.: Mitigating misinformation toolkit: Addressing COVID-19 misinformation through interprofessional learning and collaboration using a standardized patient-based educational module. MedEdPORTAL : the journal of teaching and learning resources. 20, 11461 (2024). https://doi.org/<a href="https://doi.org/10.15766/MEP_2374-8265.11461;WGROUP:STRING:AAMC">10.15766/MEP_2374-8265.11461;WGROUP:STRING:AAMC</a>.</div>
+</div>
+<div id="ref-R" class="csl-entry" role="listitem">
+<div class="csl-left-margin">26. </div><div class="csl-right-inline">R Core Team: <a href="https://www.R-project.org/">R: A language and environment for statistical computing</a>. R Foundation for Statistical Computing, Vienna, Austria (2024).</div>
+</div>
+<div id="ref-readxl" class="csl-entry" role="listitem">
+<div class="csl-left-margin">27. </div><div class="csl-right-inline">Wickham, H., Bryan, J.: <a href="https://CRAN.R-project.org/package=readxl">Readxl: Read excel files</a>. (2025).</div>
+</div>
+<div id="ref-dplyr" class="csl-entry" role="listitem">
+<div class="csl-left-margin">28. </div><div class="csl-right-inline">Wickham, H., François, R., Henry, L., Müller, K., Vaughan, D.: <a href="https://CRAN.R-project.org/package=dplyr">Dplyr: A grammar of data manipulation</a>. (2023).</div>
+</div>
+<div id="ref-guess2020digital" class="csl-entry" role="listitem">
+<div class="csl-left-margin">29. </div><div class="csl-right-inline">Guess, A.M., Lerner, M., Lyons, B., Montgomery, J.M., Nyhan, B., Reifler, J., Sircar, N.: A digital media literacy intervention increases discernment between mainstream and false news in the united states and india. Proceedings of the National Academy of Sciences of the United States of America. 117, (2020). https://doi.org/<a href="https://doi.org/10.1073/pnas.1920498117">10.1073/pnas.1920498117</a>.</div>
+</div>
+<div id="ref-jones_jang2021does" class="csl-entry" role="listitem">
+<div class="csl-left-margin">30. </div><div class="csl-right-inline">Jones-Jang, S.M., Mortensen, T., Liu, J.: Does media literacy help identification of fake news? Information literacy helps, but other literacies don’t. American Behavioral Scientist. 65, (2021). https://doi.org/<a href="https://doi.org/10.1177/0002764219869406">10.1177/0002764219869406</a>.</div>
+</div>
+<div id="ref-pennycook2021psychology" class="csl-entry" role="listitem">
+<div class="csl-left-margin">31. </div><div class="csl-right-inline">Pennycook, G., Rand, D.G.: The psychology of fake news, (2021). https://doi.org/<a href="https://doi.org/10.1016/j.tics.2021.02.007">10.1016/j.tics.2021.02.007</a>.</div>
+</div>
+<div id="ref-mcguire1964some" class="csl-entry" role="listitem">
+<div class="csl-left-margin">32. </div><div class="csl-right-inline">McGuire, W.J.: Some contemporary approaches. Advances in Experimental Social Psychology. 1, 191–229 (1964). https://doi.org/<a href="https://doi.org/10.1016/S0065-2601(08)60052-0">10.1016/S0065-2601(08)60052-0</a>.</div>
+</div>
+<div id="ref-huang2024media" class="csl-entry" role="listitem">
+<div class="csl-left-margin">33. </div><div class="csl-right-inline">Huang, G., Jia, W., Yu, W.: Media literacy interventions improve resilience to misinformation: A meta-analytic investigation of overall effect and moderating factors. Communication Research. (2024). https://doi.org/<a href="https://doi.org/10.1177/00936502241288103/SUPPL_FILE/SJ-DOCX-1-CRX-10.1177_00936502241288103.DOCX">10.1177/00936502241288103/SUPPL_FILE/SJ-DOCX-1-CRX-10.1177_00936502241288103.DOCX</a>.</div>
+</div>
+<div id="ref-roozenbeek2022technique" class="csl-entry" role="listitem">
+<div class="csl-left-margin">34. </div><div class="csl-right-inline">Roozenbeek, J., Traberg, C.S., Linden, S.V.D.: Technique-based inoculation against real-world misinformation. Royal Society Open Science. 9, (2022). https://doi.org/<a href="https://doi.org/10.1098/rsos.211719">10.1098/rsos.211719</a>.</div>
+</div>
+<div id="ref-bago2020fake" class="csl-entry" role="listitem">
+<div class="csl-left-margin">35. </div><div class="csl-right-inline">Bago, B., Rand, D.G., Pennycook, G.: Fake news, fast and slow: Deliberation reduces belief in false (but not true) news headlines. Journal of Experimental Psychology: General. 149, 1608–1613 (2020). https://doi.org/<a href="https://doi.org/10.1037/XGE0000729">10.1037/XGE0000729</a>.</div>
+</div>
+</div></section></div></main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
