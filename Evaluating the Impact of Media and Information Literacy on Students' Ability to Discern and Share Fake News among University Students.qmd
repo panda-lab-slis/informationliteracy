@@ -246,28 +246,28 @@ The findings indicate that completing MIL coursework (LIS 10 or LIS 50) does not
 
 ## Recommendations
 
-1. Integrated Learning Modules: Embed MIL principles within broader curricula rather than standalone courses. Reinforce critical evaluation skills across multiple classes and contexts to deepen retention.
+1.  Integrated Learning Modules: Embed MIL principles within broader curricula rather than standalone courses. Reinforce critical evaluation skills across multiple classes and contexts to deepen retention.
 
-1. Reflective Sharing Exercises: Develop activities where students track and reflect on their real-world sharing behaviors over time, linking accuracy judgments with social and emotional factors that drive sharing.
+2.  Reflective Sharing Exercises: Develop activities where students track and reflect on their real-world sharing behaviors over time, linking accuracy judgments with social and emotional factors that drive sharing.
 
-1. Scenario-Based Simulations: Use immersive scenarios—such as role-playing or interactive fake-news outbreaks—to practice detection under realistic time pressure and peer influence, mirroring real social media dynamics.
+3.  Scenario-Based Simulations: Use immersive scenarios—such as role-playing or interactive fake-news outbreaks—to practice detection under realistic time pressure and peer influence, mirroring real social media dynamics.
 
-1. Collaborative Fact-Checking Labs: Create group-based fact-checking projects where students collaborate to verify emerging claims, fostering both analytical skills and social accountability.
+4.  Collaborative Fact-Checking Labs: Create group-based fact-checking projects where students collaborate to verify emerging claims, fostering both analytical skills and social accountability.
 
-1. Longitudinal Assessment: Implement follow-up evaluations months after instruction to detect longer-term impacts and refine interventions accordingly.
+5.  Longitudinal Assessment: Implement follow-up evaluations months after instruction to detect longer-term impacts and refine interventions accordingly.
 
 ## Limitations
 
-1. Sample Size and Scope: The modest sample (N = 66) limits statistical power and generalizability. Participants were drawn from a single institution, potentially reflecting shared baseline competencies.
+1.  Sample Size and Scope: The modest sample (N = 66) limits statistical power and generalizability. Participants were drawn from a single institution, potentially reflecting shared baseline competencies.
 
-1. Measurement Constraints: Binary forced-choice items may not capture nuanced evaluative processes. More graded or open-ended accuracy assessments could reveal subtler improvements.
+2.  Measurement Constraints: Binary forced-choice items may not capture nuanced evaluative processes. More graded or open-ended accuracy assessments could reveal subtler improvements.
 
-1. Short-Term Evaluation: Data were collected immediately after course completion. The study does not assess retention or transfer of MIL skills over time.
+3.  Short-Term Evaluation: Data were collected immediately after course completion. The study does not assess retention or transfer of MIL skills over time.
 
-1. Self-Reported Intentions: Sharing intentions may not correspond to actual behavior. Tracking real sharing activity on social platforms would enhance ecological validity.
+4.  Self-Reported Intentions: Sharing intentions may not correspond to actual behavior. Tracking real sharing activity on social platforms would enhance ecological validity.
 
-1. Content Homogeneity: Headlines were limited to election-related items from a narrow timeframe. Including diverse topics and formats (e.g., images, videos) could test MIL applicability across contexts.
+5.  Content Homogeneity: Headlines were limited to election-related items from a narrow timeframe. Including diverse topics and formats (e.g., images, videos) could test MIL applicability across contexts.
 
-1. Addressing these limitations will strengthen future research and support the design of robust MIL interventions that yield measurable improvements in both critical evaluation and sharing behavior.
+6.  Addressing these limitations will strengthen future research and support the design of robust MIL interventions that yield measurable improvements in both critical evaluation and sharing behavior.
 
 # Reference
