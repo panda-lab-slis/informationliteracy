@@ -1,14 +1,14 @@
 ---
 title: "Evaluating the Impact of Media and Information Literacy on University Students' Ability to Discern and Share Fake News in the Philippines"
-format: html
+format: docx
 editor: visual
 csl: springer-lecture-notes-in-computer-science.csl
 bibliography: https://api.citedrive.com/bib/cfb0e65d-c210-4a73-a57e-5a8730d9fdfc/references.bib?x=eyJpZCI6ICJjZmIwZTY1ZC1jMjEwLTRhNzMtYTU3ZS01YTg3MzBkOWZkZmMiLCAidXNlciI6ICI2NzA1IiwgInNpZ25hdHVyZSI6ICJmNjFiYzA1MjFiZTJiYWVhZDNiZTljN2JhYzAxNTBkZGViNmFiZDQ2NDg4ZDZmMTg0YjBiOTU3NWJhNmFlOTNjIn0=
 citations-hover: true
 link-citations: true
 link-bibliography: true
-toc: true
-number-sections: true
+toc: false
+number-sections: false
 crossref:
   fig-title: Figure
   tbl-title: Table
