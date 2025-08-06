@@ -2,7 +2,7 @@
 title: "Evaluating the Impact of Media and Information Literacy on University Students' Ability to Discern and Share Fake News in the Philippines"
 format: docx
 editor: visual
-csl: springer-lecture-notes-in-computer-science.csl
+csl: apa.csl
 bibliography: https://api.citedrive.com/bib/cfb0e65d-c210-4a73-a57e-5a8730d9fdfc/references.bib?x=eyJpZCI6ICJjZmIwZTY1ZC1jMjEwLTRhNzMtYTU3ZS01YTg3MzBkOWZkZmMiLCAidXNlciI6ICI2NzA1IiwgInNpZ25hdHVyZSI6ICJmNjFiYzA1MjFiZTJiYWVhZDNiZTljN2JhYzAxNTBkZGViNmFiZDQ2NDg4ZDZmMTg0YjBiOTU3NWJhNmFlOTNjIn0=
 citations-hover: true
 link-citations: true
@@ -53,7 +53,7 @@ Health misinformation, particularly during the COVID-19 pandemic, has demonstrat
 
 An equally important aspect of combating misinformation through educational initiatives is the use of technology and media platforms in an increasingly digital age. A literature review noted that social media serves both as a pervasive source of misinformation and a potential tool for education [@huang2021review] . By incorporating digital literacy programs that teach individuals how to critically assess the content encountered on social media, educational initiatives can address the infodemic effectively. Such programs intend to develop skills in identifying misleading information, analyzing sources, and recognizing biases [@grover2024online].
 
-Finally, the continued exploration of innovative educational approaches is essential, especially in the face of an evolving misinformation landscape. Collaborative efforts, like the Implementing Mitigating Misinformation Toolkit or interprofessional education curricula that address misinformation, represent promising strategies to unify knowledge across disciplines and engage learners [@hayman2024mitigating; @vraga2020creating]. These initiatives aim not just to impart knowledge but also to foster collaborative skills among future leaders tasked with combating misinformation in their respective fields.
+Finally, the continued exploration of innovative educational approaches is essential, especially in the face of an evolving misinformation landscape. Collaborative efforts, like the Implementing Mitigating Misinformation Toolkit or interprofessional education curricula that address misinformation, represent promising strategies to unify knowledge across disciplines and engage learners [@hayman2024mitigating; @vraga2022creating]. These initiatives aim not just to impart knowledge but also to foster collaborative skills among future leaders tasked with combating misinformation in their respective fields.
 
 # Research Question
 
